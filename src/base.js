@@ -1,11 +1,11 @@
 import Rebase from 're-base';
-import firebase from 'firebase'
+import firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyBqbQQ02427xp603TDLvdo3KKQRnOaVxAs",
-    authDomain: "catch-of-the-day-frasier.firebaseapp.com",
-    databaseURL: "https://catch-of-the-day-frasier.firebaseio.com",
-  });
+  apiKey: "AIzaSyDEttWNpUdAWPU_v776lwKIPPWZvp9zJSQ",
+  authDomain: "market-of-the-seas.firebaseapp.com",
+  databaseURL: "https://market-of-the-seas.firebaseio.com",
+});
 
 const base = Rebase.createClass(firebaseApp.database());
 
